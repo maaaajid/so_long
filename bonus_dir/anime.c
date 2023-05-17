@@ -6,7 +6,7 @@
 /*   By: aelbouaa <aelbouaa@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/02/20 02:20:54 by aelbouaa          #+#    #+#             */
-/*   Updated: 2023/02/21 13:53:56 by aelbouaa         ###   ########.fr       */
+/*   Updated: 2023/05/16 19:49:45 by aelbouaa         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,7 +41,7 @@ void	flo_coin(t_long *s)
 	mlx_put_image_to_window(s->p,
 		s->new_window, s->floor, s->x * 50, s->y * 50);
 	mlx_put_image_to_window(s->p,
-		s->new_window, s->coin1, s->x * 50, s->y * 50);
+		s->new_window, s->coin1, (s->x * 50) + 12, (s->y * 50) + 12);
 }
 
 void	f_while(t_long *s)
